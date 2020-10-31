@@ -13,7 +13,7 @@ namespace Codereview4_Csharp
 
         static void method3()
         {
-            Console.WriteLine(" Hi whats your name? \n\n 1: for entering your name \n 2: for i dont talk to strangers");
+            Console.WriteLine(" Hi whats your name? \n\n 1: entering your name \n 2: I dont talk to strangers");
             
             string answer = Console.ReadLine();
 
