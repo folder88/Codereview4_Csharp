@@ -21,7 +21,7 @@ namespace Codereview4_Csharp.Cornel
         public void method2(string name)
         {
             Console.WriteLine($"Hi {name} how are you today");
-            Console.WriteLine("1:busy but ok;)\n2:never been better :D\n3:pretty good thanks");
+            Console.WriteLine("1:Busy but ok;)\n2:Never been better :D\n3:Pretty good thanks");
             string answer2 = Console.ReadLine();
             nameOrder = name;
             
@@ -42,7 +42,7 @@ namespace Codereview4_Csharp.Cornel
 
         public void method2a()
         {
-            Console.WriteLine("Great!would you like to use our express-delivery service?\n1:sounds good\n2:no hurry");
+            Console.WriteLine("Great!Would you like to use our express-delivery service?\n1:Sounds good\n2:No hurry");
             string answer2a = Console.ReadLine();
 
             if (answer2a == "1")
@@ -57,7 +57,7 @@ namespace Codereview4_Csharp.Cornel
 
         public void method3()
         {
-            Console.WriteLine("would you like to order some food?\n1:not yet,just wanted to chat\n2:yes please");
+            Console.WriteLine("Would you like to order some food?\n1:Not yet,just wanted to chat\n2:Yes please");
             string answer3 = Console.ReadLine();
             if (answer3 == "1")
             {
@@ -71,52 +71,52 @@ namespace Codereview4_Csharp.Cornel
         
         public void method4()
         {
-            Console.WriteLine("What type of pizza would you like?\n1:Pizza romana\n2:Pizza diavola\n3:Pizza tonna\n4:Pizza formaggio\n5:Pizza margherita");
+            Console.WriteLine("What type of pizza would you like?\n1:Pizza romana\n2:Pizza Diavola\n3:Pizza Tonna\n4:Pizza Formaggio\n5:Pizza Margherita");
             string answer4 = Console.ReadLine();
 
             switch(answer4)
             {
                 case "1":
-                    pizza = "Pizza romana";
+                    pizza = "Pizza Romana";
                         break;
 
                 case "2":
-                     pizza = "Pizza diavola";
+                     pizza = "Pizza Diavola";
                     break;
 
                 case "3":
-                    pizza = "Pizza tonna";
+                    pizza = "Pizza Tonna";
                     break;
 
                 case "4":
-                    pizza = "Pizza formaggio";
+                    pizza = "Pizza Formaggio";
                     break;
 
                 case "5":
-                    pizza = "Pizza margherita";
+                    pizza = "Pizza Margherita";
                     break;
             }
             
-            Console.WriteLine("what size?\n1:small\n2:big\n3:super-big family pizza");
+            Console.WriteLine("What size?\n1:Small\n2:Big\n3:Super-big Family Pizza");
             string answer5 = Console.ReadLine();
 
             switch (answer5)
             {
                 case "1":
-                    pizzaSize = "small";
+                    pizzaSize = "Small";
                     break;
 
                 case "2":
-                    pizzaSize = "big";
+                    pizzaSize = "Big";
                     break;
 
                 case "3":
-                    pizzaSize = "super-big family pizza";
+                    pizzaSize = "Super-big family pizza";
                     break;
             }
 
 
-            Console.WriteLine("Would you like to add some drinks to your order?\n1:yes please\n2:no,thanks");
+            Console.WriteLine("Would you like to add some drinks to your order?\n1:Yes please\n2:No,thanks");
             string answer6 = Console.ReadLine();
             if(answer6 == "1")
             {
@@ -129,7 +129,7 @@ namespace Codereview4_Csharp.Cornel
 
         }
         public void method6a() {
-            Console.WriteLine("what drink do you want?\n1:Bear\n2:Cola\n3:Juice");
+            Console.WriteLine("What drink do you want?\n1:Bear\n2:Cola\n3:Juice");
 
             string answer7 = Console.ReadLine();
             switch (answer7)
@@ -151,7 +151,7 @@ namespace Codereview4_Csharp.Cornel
         }
         public void method7()
         {
-            Console.WriteLine("at what time should it be delivered?\n1:asap,i am very hungry\n2:in 1 hour\n2:in 2 hours");
+            Console.WriteLine("at what time should it be delivered?\n1:Asap,i am very hungry\n2:In 1 hour\n3:In 2 hours");
             string answer8 = Console.ReadLine();
             switch (answer8)
             {
@@ -172,16 +172,16 @@ namespace Codereview4_Csharp.Cornel
 
         public void method8()
         {
-            Console.WriteLine("what payment method do you prefer?\n1:cash\n2:credit card\n3:PayPal\n4:Bitcoin");
+            Console.WriteLine("What payment method do you prefer?\n1:Cash\n2:Credit card\n3:PayPal\n4:Bitcoin");
             string answer9 = Console.ReadLine();
             switch (answer9)
             {
                 case "1":
-                    paymentMethod = "cash";
+                    paymentMethod = "Cash";
                     break;
 
                 case "2":
-                    paymentMethod = "credit card";
+                    paymentMethod = "Credit card";
                     break;
 
                 case "3":

@@ -13,22 +13,30 @@ namespace Codereview4_Csharp
 
         static void method3()
         {
-            Console.WriteLine(" Hi whats your name? \n\n 1: entering your name \n 2: I dont talk to strangers");
-            
-            string answer = Console.ReadLine();
 
-            if(answer == "1")
-            {
-                Class1 task = new Cornel.Class1();
-                Console.WriteLine("Whats your name?");
-                string name = Console.ReadLine();
-                task.method2(name); 
-            }
-            else if(answer == "2")
-            {
-                Console.WriteLine("Have a nice Day!");
-            }
            
+                
+                    Console.WriteLine(" Hi whats your name? \n\n 1: entering your name \n 2: I dont talk to strangers");
+
+                    string answer = Console.ReadLine();
+
+                    if (answer == "1")
+                    {
+                        Class1 task = new Cornel.Class1();
+                        Console.WriteLine("Whats your name?");
+                        string name = Console.ReadLine();
+                        task.method2(name);
+                    }
+                    else if (answer == "2")
+                    {
+                        Console.WriteLine("Have a nice Day!");
+                    }
+                
+
+                
+
+            
         }
+
     }
 }
